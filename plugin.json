@@ -1,0 +1,7 @@
+{
+    "url": "https://github.com/Hawkings/nodebb-plugin-autolock",
+    "library": "./autolock.js",
+    "hooks": [
+        { "hook": "action:post.save", "method": "autolock" }
+    ]
+}
