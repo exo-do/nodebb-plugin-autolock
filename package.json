@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-autolock",
+  "version": "1.0.0",
+  "description": "Automatically locks topics after 1000 posts",
+  "main": "autolock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hawkings/nodebb-plugin-autolock.git"
+  },
+  "keywords": [
+    "nodebb-plugin",
+    "nodebb"
+  ],
+  "author": "Hawkings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hawkings/nodebb-plugin-autolock/issues"
+  },
+  "homepage": "https://github.com/Hawkings/nodebb-plugin-autolock#readme"
+}
