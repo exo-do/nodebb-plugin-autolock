@@ -6,7 +6,7 @@ module.exports.autolock = function (data, callback) {
 	Topics.getPostCount(data.tid, function (err, postCount) {
 		if(err) {
 			callback(err);
-		} if(postCount >= 1000) {
+		} else if(postCount >= 1000) {
 			Topics.setTopicField(data.tid, 'locked', 1, callback);
 		} else {
 			callback();
