@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Hawkings/nodebb-plugin-autolock/issues"
   },
-  "homepage": "https://github.com/Hawkings/nodebb-plugin-autolock#readme"
+  "homepage": "https://github.com/Hawkings/nodebb-plugin-autolock#readme",
+  "nbbpm": {
+      "compatibility": "^0.8.0"
+  }
 }
