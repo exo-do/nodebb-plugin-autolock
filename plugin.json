@@ -3,5 +3,8 @@
     "library": "./autolock.js",
     "hooks": [
         { "hook": "action:post.save", "method": "autolock" }
-    ]
+    ],
+    "nbbpm": {
+        "compatibility": "^0.8"
+    }
 }
