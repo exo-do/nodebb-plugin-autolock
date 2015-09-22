@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-autolock",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Automatically locks topics after 1000 posts",
   "main": "autolock.js",
   "scripts": {
